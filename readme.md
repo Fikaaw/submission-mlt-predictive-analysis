@@ -36,7 +36,7 @@ https://www.kaggle.com/competitions/playground-series-s4e2/data
 ### Explorasi Data
 
 1. Corellation Matrix
-
+![correlation-matrix](https://github.com/user-attachments/assets/1b4e98d6-04a7-46e6-9480-ea8f66083ec0)
 Correlation matrix diatas merepresentasikan hubungan antar fitur, berikut adalah analisisnya:
 - Age dan BMI memiliki korelasi positif sangat kuat
 - TUE dan Age memiliki korelasi negatif sangat kuat
@@ -45,7 +45,7 @@ Correlation matrix diatas merepresentasikan hubungan antar fitur, berikut adalah
 - TUE dan BMI memiliki korelasi negatif sangat kuat
 
 2. Histogram
-
+![histogram](https://github.com/user-attachments/assets/3a9febf8-bd68-4827-acb7-a88986e0b509)
 Histogram-histogram di atas merepresentasikan distribusi data untuk sembilan fitur, berikut analisisnya:
 - Age: Distribusi skewed ke kiri, sebagian besar data berada pada rentang usia 20-30 tahun.
 - Height dan Weight: Terdistribusi normal, dengan puncak sekitar tinggi 1.7 meter dan berat 70-90 kg.
@@ -54,14 +54,14 @@ Histogram-histogram di atas merepresentasikan distribusi data untuk sembilan fit
 - BMI: Distribusi mirip normal dengan puncak sekitar nilai 25-30, menandakan dominasi individu overweight atau obesitas.
 
 3. Rata-Rata BMI Berdasarkan Kategori Obesitas
-
+![average-bmi](https://github.com/user-attachments/assets/70375048-e934-44da-83e9-3d2fb4473ac5)
 Gambar diatas menunjukkan Tren BMI dan Obesitas:
 - BMI rata-rata tertinggi ditemukan pada kategori Obesity_Type_III (di atas 40), menunjukkan kondisi obesitas paling parah.
 - BMI menurun secara bertahap dari kategori obesitas parah hingga Normal_Weight dan Insufficient_Weight.
 - Pola ini sejalan dengan klasifikasi BMI di mana nilai lebih tinggi menunjukkan tingkat obesitas yang lebih parah.
 
 4. Distribusi Jenis Kelamin
-
+![gender-distribution](https://github.com/user-attachments/assets/016506d6-9a5f-40f4-b425-f4b75ba5e7a0)
 - Data menunjukkan distribusi hampir seimbang antara Female (50.2%) dan Male (49.8%).
 
 ## Data Preparation
